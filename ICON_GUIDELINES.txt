@@ -1,0 +1,265 @@
+Craterium pixel icon guidelines
+Version 2.0, October 2026
+
+Every icon in Craterium is pixel art on the same grid as the logo.
+This file tells you exactly how to make a new one so it matches the set.
+If a rule here and your taste disagree, the rule wins. Consistency is the
+whole point of an icon set.
+
+
+1. The grid
+-----------
+
+  Canvas:        12 x 12 cells. Always. No 16x16, no 10x10.
+  Live area:     the inner 10 x 10 cells (columns 2 to 11, rows 2 to 11,
+                 counting from 1). The outer ring of cells is padding.
+  One cell:      one unit. A cell is either empty, foreground or accent.
+                 There are no half cells and no partially filled cells.
+
+  Allowed render sizes (integer multiples of 12 only):
+
+      12 px  (1 screen pixel per cell)   dense tables, inline with 12 px text
+      24 px  (2 per cell)                default for buttons, nav, toolbars
+      36 px  (3 per cell)                empty states, settings headers
+      48 px  (4 per cell)                onboarding, marketing
+      96 px  (8 per cell)                hero, store listings
+
+  Never render at 16, 20, 30 or 32 px. The browser has to resample a
+  12 cell grid onto a size that does not divide by 12, and the edges go
+  soft. That is the single most common way to break the pixel look.
+
+  A shape may reach into the padding on one side only, and only when it
+  needs the reach (an arrowhead, a tall stacked object). Never on two
+  opposite sides at once. The checker flags it.
+
+
+2. Cell types, mono and duotone
+-------------------------------
+
+  .   empty
+  #   foreground. Always currentColor.
+  +   accent. The one part that carries meaning: a cursor, an LED, an
+      arrow, a keyhole, an active state. Maximum 12 accent cells.
+
+  Every source produces two variants:
+
+      duotone   # is currentColor, + is var(--crt-accent)
+      mono      # and + are both currentColor
+
+  So the mono variant is the duotone one with the accent folded in. Draw
+  the icon so it still reads in mono. The accent must never be the only
+  thing that makes the icon recognisable.
+
+  Every icon has at least one accent cell, otherwise duotone equals mono.
+  The checker flags icons without one.
+
+  Never bake status colors (running, error and so on) into an icon.
+  To show an error icon in red, set color: var(--crt-status-error) on the
+  parent element. The icon follows. Never use more than two colors.
+
+
+3. Strokes
+----------
+
+  Outline icons:   strokes are exactly 1 cell wide.
+  Solid icons:     allowed for playback style actions only (play, stop,
+                   pause). They are filled shapes, not outlines.
+  2 cell strokes:  only for small symbols that must survive at 12 px:
+                   plus, minus, check, close, chevrons, arrows, terminal,
+                   the exclamation mark in alert.
+
+  Do not mix 1 cell and 2 cell strokes inside one shape.
+
+
+4. Straight lines and diagonals
+-------------------------------
+
+  Horizontal and vertical lines are unbroken runs of cells.
+
+  Diagonals use one fixed step pattern from start to end:
+
+      1:1 step (45 degrees)        2:1 step (shallow)
+
+      #.....                       ##......
+      .#....                       ..##....
+      ..#...                       ....##..
+      ...#..                       ......##
+
+  Never mix step lengths in one straight line (1, 2, 1, 3 looks broken).
+  A 1:1 diagonal in an outline icon is 1 cell wide, cells touch only at
+  their corners. A 2 cell wide 1:1 diagonal is allowed for check marks,
+  chevrons and arrowheads.
+
+
+5. Curves and circles
+---------------------
+
+  Do not freehand circles. Use these recipes so every round shape in the
+  set has the same rhythm.
+
+  Large circle, 10 cells wide, 1 cell stroke (info, clock, radio):
+
+      ....####....
+      ..##....##..
+      .#........#.
+      .#........#.
+      .#........#.
+      .#........#.
+      .#........#.
+      .#........#.
+      ..##....##..
+      ....####....
+
+  Medium circle, 8 cells wide, 1 cell stroke (search, uptime):
+
+      ...####.....
+      ..#....#....
+      .#......#...
+      .#......#...
+      .#......#...
+      .#......#...
+      ..#....#....
+      ...####.....
+
+  Small circle, 6 cells wide, 1 cell stroke (user head, git-commit):
+
+      ....####....
+      ...#....#...
+      ...#....#...
+      ...#....#...
+      ....####....
+
+  Rounded rectangle corner: remove exactly one corner cell. Never more,
+  the shape starts to look like a blob.
+
+      ##########         .########.
+      #........#   to    #........#
+
+  The logo itself uses a 2 cell stroke circle. That weight is reserved for
+  the logo and the API mark. Icons stay at 1 cell.
+
+
+6. Gaps, holes and dots
+-----------------------
+
+  Minimum gap between two separate parts: 1 empty cell.
+  Minimum hole inside a shape: 1 cell, better 2.
+  Dots (LEDs, the dot of an exclamation mark, a cursor): at least 2 cells
+  (2 x 1 or 2 x 2). A single cell with no filled neighbour is an orphan
+  pixel. Orphans flicker visually at 24 px and disappear at 12 px.
+  The checker flags them.
+
+
+7. Symmetry and centering
+-------------------------
+
+  Symmetric objects must mirror exactly, cell for cell.
+  The grid center sits between columns 6 and 7 (and rows 6 and 7).
+  Even width shapes center perfectly. Odd width shapes shift half a cell
+  left (and up), consistently.
+  Shapes pointing right (play, chevron-right) sit one cell right of
+  center, because their visual weight is on the flat side.
+  Direction families (arrow-*, chevron-*) are drawn once and rotated or
+  mirrored, never redrawn per direction.
+
+
+8. Weight
+---------
+
+  Count the filled cells. Icons in the set fall in these ranges:
+
+      outline icons    28 to 64 cells
+      solid icons      30 to 64 cells
+      small symbols    16 to 40 cells
+
+  If your icon is far outside the range it will look too light or too
+  heavy next to the others. Simplify or open up the shape.
+  icons.json lists the cell and accent count of every icon.
+
+
+9. Never
+--------
+
+  anti-aliasing, soft edges, half cells
+  gradients, glows, drop shadows, outlines around the icon
+  rotation by anything other than 90 degrees
+  scaling to non multiples of 12
+  smooth vector icons (Tabler, Lucide, Heroicons) in the same interface
+  text inside icons
+  more than two colors
+
+
+10. Step by step
+----------------
+
+  1.  make new CAT=<category> NAME=<name>
+      Categories: panel (server operations), ui (general interface),
+      dev (files and development). Name: lowercase, kebab-case, named
+      after the object, not the context. "folder", not "open-server-files".
+      Names are unique across all categories.
+
+  2.  Open src/<category>/<name>.txt in a monospace editor. Use replace
+      mode (R in vim) so you overwrite cells instead of inserting.
+      Every row must stay exactly 12 characters. Fill in the tags line.
+
+  3.  Block out the silhouette with # inside the live area. Look for the
+      simplest shape that is still recognisable. Start from the closest
+      existing icon if one exists.
+
+  4.  Apply the recipes from sections 4 and 5 to every diagonal and curve.
+
+  5.  Mark the meaningful part with + (section 2).
+
+  6.  make check
+      It errors on wrong size, unknown characters or duplicate names, and
+      warns on orphan pixels, missing or too many accent cells and shapes
+      that reach the padding on two sides. Fix every warning.
+
+  7.  make
+      Writes svg/, png/, the sprites, icons.json and preview.html.
+
+  8.  Open preview.html. Toggle mono and duotone, both themes and all
+      sizes. Same weight, same rhythm, same padding as its neighbours?
+
+  9.  Commit the .txt together with the generated files. The .txt is the
+      source of truth. Never edit an SVG or PNG by hand.
+
+
+11. Using icons in code
+-----------------------
+
+  Inline the SVG so currentColor works:
+
+      <span class="crt-icon" aria-hidden="true">  <!-- svg here --> </span>
+
+      .crt-icon svg {
+        width: var(--crt-icon-size, 24px);   /* 12, 24, 36, 48 or 96 only */
+        height: var(--crt-icon-size, 24px);
+        display: block;
+      }
+
+  Or use a sprite:
+
+      <svg width="24" height="24"><use href="sprite-duotone.svg#crt-server"/></svg>
+
+  The SVGs carry shape-rendering="crispEdges", keep it.
+  Icon only buttons need an aria-label on the button.
+  If you use a PNG, scale it with nearest neighbour and set
+  image-rendering: pixelated in CSS.
+
+
+12. Checklist before you commit
+-------------------------------
+
+  [ ] 12 x 12, only . # +
+  [ ] shape stays inside the live area (or one allowed exception)
+  [ ] 1 cell strokes (2 only for the small symbols in section 3)
+  [ ] diagonals use one step pattern
+  [ ] circles use the recipes
+  [ ] no orphan pixels, dots are 2+ cells
+  [ ] 1 to 12 accent cells, accent only where it means something
+  [ ] still recognisable in mono
+  [ ] symmetric shapes mirror exactly
+  [ ] weight within the ranges in section 8
+  [ ] readable at 12 px
+  [ ] make check passes, make has been run, everything committed

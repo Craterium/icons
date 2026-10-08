@@ -1,0 +1,1655 @@
+{
+  "name": "craterium-icons",
+  "grid": 12,
+  "count": 150,
+  "icons": [
+    {
+      "name": "braces",
+      "category": "dev",
+      "tags": [
+        "json",
+        "object",
+        "curly"
+      ],
+      "cells": 24,
+      "accent": 4
+    },
+    {
+      "name": "bug",
+      "category": "dev",
+      "tags": [
+        "issue",
+        "defect",
+        "debug"
+      ],
+      "cells": 46,
+      "accent": 10
+    },
+    {
+      "name": "cloud-download",
+      "category": "dev",
+      "tags": [
+        "pull",
+        "fetch",
+        "download"
+      ],
+      "cells": 32,
+      "accent": 12
+    },
+    {
+      "name": "cloud-upload",
+      "category": "dev",
+      "tags": [
+        "push",
+        "sync",
+        "upload"
+      ],
+      "cells": 32,
+      "accent": 12
+    },
+    {
+      "name": "code",
+      "category": "dev",
+      "tags": [
+        "source",
+        "brackets",
+        "html",
+        "develop"
+      ],
+      "cells": 16,
+      "accent": 4
+    },
+    {
+      "name": "container",
+      "category": "dev",
+      "tags": [
+        "docker",
+        "image",
+        "shipping"
+      ],
+      "cells": 44,
+      "accent": 12
+    },
+    {
+      "name": "cursor",
+      "category": "dev",
+      "tags": [
+        "pointer",
+        "mouse",
+        "click",
+        "select"
+      ],
+      "cells": 31,
+      "accent": 10
+    },
+    {
+      "name": "diff",
+      "category": "dev",
+      "tags": [
+        "changes",
+        "compare",
+        "plus minus"
+      ],
+      "cells": 24,
+      "accent": 12
+    },
+    {
+      "name": "file-image",
+      "category": "dev",
+      "tags": [
+        "picture",
+        "png",
+        "asset"
+      ],
+      "cells": 41,
+      "accent": 2
+    },
+    {
+      "name": "file-plus",
+      "category": "dev",
+      "tags": [
+        "new file",
+        "create",
+        "add document"
+      ],
+      "cells": 46,
+      "accent": 12
+    },
+    {
+      "name": "file-text",
+      "category": "dev",
+      "tags": [
+        "document",
+        "notes",
+        "readme",
+        "docs"
+      ],
+      "cells": 42,
+      "accent": 8
+    },
+    {
+      "name": "file-zip",
+      "category": "dev",
+      "tags": [
+        "archive",
+        "compressed",
+        "jar"
+      ],
+      "cells": 43,
+      "accent": 9
+    },
+    {
+      "name": "file",
+      "category": "dev",
+      "tags": [
+        "document",
+        "page",
+        "blank"
+      ],
+      "cells": 34,
+      "accent": 7
+    },
+    {
+      "name": "flask",
+      "category": "dev",
+      "tags": [
+        "test",
+        "experiment",
+        "lab",
+        "beaker"
+      ],
+      "cells": 38,
+      "accent": 8
+    },
+    {
+      "name": "folder-open",
+      "category": "dev",
+      "tags": [
+        "directory",
+        "browse",
+        "open"
+      ],
+      "cells": 37,
+      "accent": 8
+    },
+    {
+      "name": "folder-plus",
+      "category": "dev",
+      "tags": [
+        "new folder",
+        "create directory"
+      ],
+      "cells": 43,
+      "accent": 12
+    },
+    {
+      "name": "folder",
+      "category": "dev",
+      "tags": [
+        "directory",
+        "files"
+      ],
+      "cells": 34,
+      "accent": 3
+    },
+    {
+      "name": "git-branch",
+      "category": "dev",
+      "tags": [
+        "branch",
+        "fork",
+        "version control"
+      ],
+      "cells": 24,
+      "accent": 4
+    },
+    {
+      "name": "git-commit",
+      "category": "dev",
+      "tags": [
+        "commit",
+        "revision",
+        "node"
+      ],
+      "cells": 28,
+      "accent": 4
+    },
+    {
+      "name": "git-merge",
+      "category": "dev",
+      "tags": [
+        "merge",
+        "join",
+        "version control"
+      ],
+      "cells": 23,
+      "accent": 4
+    },
+    {
+      "name": "git-pull-request",
+      "category": "dev",
+      "tags": [
+        "pull request",
+        "pr",
+        "review"
+      ],
+      "cells": 30,
+      "accent": 4
+    },
+    {
+      "name": "hash",
+      "category": "dev",
+      "tags": [
+        "number",
+        "channel",
+        "tag"
+      ],
+      "cells": 36,
+      "accent": 10
+    },
+    {
+      "name": "key",
+      "category": "dev",
+      "tags": [
+        "api key",
+        "token",
+        "secret",
+        "password"
+      ],
+      "cells": 23,
+      "accent": 2
+    },
+    {
+      "name": "laptop",
+      "category": "dev",
+      "tags": [
+        "computer",
+        "notebook",
+        "device"
+      ],
+      "cells": 37,
+      "accent": 3
+    },
+    {
+      "name": "layers",
+      "category": "dev",
+      "tags": [
+        "stack",
+        "levels",
+        "overlay"
+      ],
+      "cells": 26,
+      "accent": 10
+    },
+    {
+      "name": "lightbulb",
+      "category": "dev",
+      "tags": [
+        "idea",
+        "hint",
+        "tip"
+      ],
+      "cells": 34,
+      "accent": 6
+    },
+    {
+      "name": "monitor",
+      "category": "dev",
+      "tags": [
+        "screen",
+        "display",
+        "desktop"
+      ],
+      "cells": 41,
+      "accent": 3
+    },
+    {
+      "name": "package",
+      "category": "dev",
+      "tags": [
+        "box",
+        "release",
+        "artifact",
+        "npm"
+      ],
+      "cells": 46,
+      "accent": 6
+    },
+    {
+      "name": "phone",
+      "category": "dev",
+      "tags": [
+        "mobile",
+        "device",
+        "smartphone"
+      ],
+      "cells": 32,
+      "accent": 2
+    },
+    {
+      "name": "robot",
+      "category": "dev",
+      "tags": [
+        "bot",
+        "automation",
+        "ai"
+      ],
+      "cells": 44,
+      "accent": 6
+    },
+    {
+      "name": "terminal",
+      "category": "dev",
+      "tags": [
+        "shell",
+        "prompt",
+        "cli",
+        "bash"
+      ],
+      "cells": 24,
+      "accent": 10
+    },
+    {
+      "name": "transfer",
+      "category": "dev",
+      "tags": [
+        "api",
+        "exchange",
+        "swap",
+        "request response"
+      ],
+      "cells": 23,
+      "accent": 12
+    },
+    {
+      "name": "activity",
+      "category": "panel",
+      "tags": [
+        "pulse",
+        "heartbeat",
+        "tps"
+      ],
+      "cells": 44,
+      "accent": 8
+    },
+    {
+      "name": "backup",
+      "category": "panel",
+      "tags": [
+        "snapshot",
+        "save",
+        "store"
+      ],
+      "cells": 48,
+      "accent": 4
+    },
+    {
+      "name": "ban",
+      "category": "panel",
+      "tags": [
+        "block",
+        "forbid",
+        "prohibit"
+      ],
+      "cells": 40,
+      "accent": 12
+    },
+    {
+      "name": "broadcast",
+      "category": "panel",
+      "tags": [
+        "announce",
+        "megaphone",
+        "motd"
+      ],
+      "cells": 28,
+      "accent": 4
+    },
+    {
+      "name": "charts",
+      "category": "panel",
+      "tags": [
+        "statistics",
+        "metrics",
+        "bars"
+      ],
+      "cells": 49,
+      "accent": 12
+    },
+    {
+      "name": "chat",
+      "category": "panel",
+      "tags": [
+        "message",
+        "talk",
+        "comment"
+      ],
+      "cells": 39,
+      "accent": 10
+    },
+    {
+      "name": "cloud",
+      "category": "panel",
+      "tags": [
+        "hosting",
+        "remote",
+        "online"
+      ],
+      "cells": 22,
+      "accent": 8
+    },
+    {
+      "name": "console",
+      "category": "panel",
+      "tags": [
+        "terminal",
+        "shell",
+        "command",
+        "rcon"
+      ],
+      "cells": 44,
+      "accent": 3
+    },
+    {
+      "name": "cpu",
+      "category": "panel",
+      "tags": [
+        "processor",
+        "chip",
+        "compute"
+      ],
+      "cells": 48,
+      "accent": 12
+    },
+    {
+      "name": "crown",
+      "category": "panel",
+      "tags": [
+        "operator",
+        "op",
+        "admin",
+        "owner"
+      ],
+      "cells": 44,
+      "accent": 6
+    },
+    {
+      "name": "database",
+      "category": "panel",
+      "tags": [
+        "db",
+        "sql",
+        "storage"
+      ],
+      "cells": 46,
+      "accent": 12
+    },
+    {
+      "name": "disk",
+      "category": "panel",
+      "tags": [
+        "storage",
+        "drive",
+        "hdd"
+      ],
+      "cells": 52,
+      "accent": 4
+    },
+    {
+      "name": "firewall",
+      "category": "panel",
+      "tags": [
+        "wall",
+        "protect",
+        "bricks"
+      ],
+      "cells": 60,
+      "accent": 10
+    },
+    {
+      "name": "gauge",
+      "category": "panel",
+      "tags": [
+        "speed",
+        "performance",
+        "meter"
+      ],
+      "cells": 34,
+      "accent": 6
+    },
+    {
+      "name": "logs",
+      "category": "panel",
+      "tags": [
+        "output",
+        "history",
+        "journal"
+      ],
+      "cells": 48,
+      "accent": 6
+    },
+    {
+      "name": "map",
+      "category": "panel",
+      "tags": [
+        "atlas",
+        "region",
+        "terrain"
+      ],
+      "cells": 56,
+      "accent": 8
+    },
+    {
+      "name": "memory",
+      "category": "panel",
+      "tags": [
+        "ram",
+        "dimm",
+        "heap"
+      ],
+      "cells": 40,
+      "accent": 8
+    },
+    {
+      "name": "mods",
+      "category": "panel",
+      "tags": [
+        "cube",
+        "block",
+        "modpack"
+      ],
+      "cells": 50,
+      "accent": 10
+    },
+    {
+      "name": "network",
+      "category": "panel",
+      "tags": [
+        "topology",
+        "lan",
+        "infrastructure"
+      ],
+      "cells": 50,
+      "accent": 6
+    },
+    {
+      "name": "nodes",
+      "category": "panel",
+      "tags": [
+        "cluster",
+        "mesh",
+        "peers"
+      ],
+      "cells": 29,
+      "accent": 12
+    },
+    {
+      "name": "pause",
+      "category": "panel",
+      "tags": [
+        "hold",
+        "suspend",
+        "freeze"
+      ],
+      "cells": 48,
+      "accent": 12
+    },
+    {
+      "name": "play",
+      "category": "panel",
+      "tags": [
+        "start",
+        "run",
+        "launch"
+      ],
+      "cells": 40,
+      "accent": 10
+    },
+    {
+      "name": "player-add",
+      "category": "panel",
+      "tags": [
+        "invite",
+        "join",
+        "whitelist add"
+      ],
+      "cells": 31,
+      "accent": 5
+    },
+    {
+      "name": "player-remove",
+      "category": "panel",
+      "tags": [
+        "kick",
+        "leave",
+        "whitelist remove"
+      ],
+      "cells": 29,
+      "accent": 3
+    },
+    {
+      "name": "player",
+      "category": "panel",
+      "tags": [
+        "avatar",
+        "gamer",
+        "character"
+      ],
+      "cells": 36,
+      "accent": 2
+    },
+    {
+      "name": "plug",
+      "category": "panel",
+      "tags": [
+        "port",
+        "connector",
+        "socket"
+      ],
+      "cells": 30,
+      "accent": 2
+    },
+    {
+      "name": "plugin",
+      "category": "panel",
+      "tags": [
+        "extension",
+        "addon",
+        "puzzle"
+      ],
+      "cells": 36,
+      "accent": 4
+    },
+    {
+      "name": "power",
+      "category": "panel",
+      "tags": [
+        "shutdown",
+        "on off",
+        "kill"
+      ],
+      "cells": 34,
+      "accent": 10
+    },
+    {
+      "name": "restart",
+      "category": "panel",
+      "tags": [
+        "reboot",
+        "cycle",
+        "reload"
+      ],
+      "cells": 26,
+      "accent": 7
+    },
+    {
+      "name": "restore",
+      "category": "panel",
+      "tags": [
+        "recover",
+        "rollback",
+        "load"
+      ],
+      "cells": 48,
+      "accent": 4
+    },
+    {
+      "name": "rocket",
+      "category": "panel",
+      "tags": [
+        "deploy",
+        "launch",
+        "release"
+      ],
+      "cells": 32,
+      "accent": 6
+    },
+    {
+      "name": "server",
+      "category": "panel",
+      "tags": [
+        "host",
+        "machine",
+        "instance"
+      ],
+      "cells": 60,
+      "accent": 4
+    },
+    {
+      "name": "shield",
+      "category": "panel",
+      "tags": [
+        "security",
+        "protection",
+        "secure"
+      ],
+      "cells": 33,
+      "accent": 5
+    },
+    {
+      "name": "signal",
+      "category": "panel",
+      "tags": [
+        "strength",
+        "latency",
+        "ping"
+      ],
+      "cells": 36,
+      "accent": 6
+    },
+    {
+      "name": "stop",
+      "category": "panel",
+      "tags": [
+        "halt",
+        "end",
+        "terminate"
+      ],
+      "cells": 64,
+      "accent": 12
+    },
+    {
+      "name": "temperature",
+      "category": "panel",
+      "tags": [
+        "thermometer",
+        "heat"
+      ],
+      "cells": 28,
+      "accent": 8
+    },
+    {
+      "name": "update",
+      "category": "panel",
+      "tags": [
+        "upgrade",
+        "new version",
+        "arrow"
+      ],
+      "cells": 44,
+      "accent": 6
+    },
+    {
+      "name": "uptime",
+      "category": "panel",
+      "tags": [
+        "timer",
+        "stopwatch",
+        "duration"
+      ],
+      "cells": 28,
+      "accent": 7
+    },
+    {
+      "name": "whitelist",
+      "category": "panel",
+      "tags": [
+        "allowlist",
+        "approved",
+        "access list"
+      ],
+      "cells": 40,
+      "accent": 4
+    },
+    {
+      "name": "wifi",
+      "category": "panel",
+      "tags": [
+        "wireless",
+        "connection",
+        "online"
+      ],
+      "cells": 20,
+      "accent": 4
+    },
+    {
+      "name": "world",
+      "category": "panel",
+      "tags": [
+        "globe",
+        "map",
+        "dimension",
+        "earth"
+      ],
+      "cells": 56,
+      "accent": 12
+    },
+    {
+      "name": "alert",
+      "category": "ui",
+      "tags": [
+        "warning",
+        "caution",
+        "danger"
+      ],
+      "cells": 36,
+      "accent": 2
+    },
+    {
+      "name": "archive",
+      "category": "ui",
+      "tags": [
+        "box",
+        "store",
+        "storage"
+      ],
+      "cells": 46,
+      "accent": 4
+    },
+    {
+      "name": "arrow-down",
+      "category": "ui",
+      "tags": [
+        "bottom",
+        "direction"
+      ],
+      "cells": 36,
+      "accent": 12
+    },
+    {
+      "name": "arrow-left",
+      "category": "ui",
+      "tags": [
+        "back",
+        "previous",
+        "direction"
+      ],
+      "cells": 36,
+      "accent": 12
+    },
+    {
+      "name": "arrow-right",
+      "category": "ui",
+      "tags": [
+        "next",
+        "forward",
+        "direction"
+      ],
+      "cells": 36,
+      "accent": 12
+    },
+    {
+      "name": "arrow-up",
+      "category": "ui",
+      "tags": [
+        "top",
+        "direction"
+      ],
+      "cells": 36,
+      "accent": 12
+    },
+    {
+      "name": "bell",
+      "category": "ui",
+      "tags": [
+        "notification",
+        "alert",
+        "alarm"
+      ],
+      "cells": 30,
+      "accent": 2
+    },
+    {
+      "name": "bolt",
+      "category": "ui",
+      "tags": [
+        "lightning",
+        "power",
+        "fast"
+      ],
+      "cells": 36,
+      "accent": 12
+    },
+    {
+      "name": "bookmark",
+      "category": "ui",
+      "tags": [
+        "save",
+        "mark",
+        "read later"
+      ],
+      "cells": 36,
+      "accent": 4
+    },
+    {
+      "name": "calendar",
+      "category": "ui",
+      "tags": [
+        "date",
+        "schedule",
+        "day"
+      ],
+      "cells": 48,
+      "accent": 4
+    },
+    {
+      "name": "camera",
+      "category": "ui",
+      "tags": [
+        "photo",
+        "snapshot",
+        "capture"
+      ],
+      "cells": 53,
+      "accent": 2
+    },
+    {
+      "name": "check",
+      "category": "ui",
+      "tags": [
+        "done",
+        "ok",
+        "confirm",
+        "success"
+      ],
+      "cells": 18,
+      "accent": 4
+    },
+    {
+      "name": "checkbox",
+      "category": "ui",
+      "tags": [
+        "checked",
+        "tick",
+        "select"
+      ],
+      "cells": 44,
+      "accent": 12
+    },
+    {
+      "name": "chevron-down",
+      "category": "ui",
+      "tags": [
+        "caret",
+        "expand",
+        "dropdown"
+      ],
+      "cells": 16,
+      "accent": 4
+    },
+    {
+      "name": "chevron-left",
+      "category": "ui",
+      "tags": [
+        "caret",
+        "back"
+      ],
+      "cells": 16,
+      "accent": 4
+    },
+    {
+      "name": "chevron-right",
+      "category": "ui",
+      "tags": [
+        "caret",
+        "next",
+        "expand"
+      ],
+      "cells": 16,
+      "accent": 4
+    },
+    {
+      "name": "chevron-up",
+      "category": "ui",
+      "tags": [
+        "caret",
+        "collapse"
+      ],
+      "cells": 16,
+      "accent": 4
+    },
+    {
+      "name": "clipboard",
+      "category": "ui",
+      "tags": [
+        "paste",
+        "board",
+        "notes"
+      ],
+      "cells": 47,
+      "accent": 10
+    },
+    {
+      "name": "clock",
+      "category": "ui",
+      "tags": [
+        "time",
+        "hour",
+        "timer"
+      ],
+      "cells": 33,
+      "accent": 2
+    },
+    {
+      "name": "close",
+      "category": "ui",
+      "tags": [
+        "x",
+        "cancel",
+        "dismiss"
+      ],
+      "cells": 26,
+      "accent": 2
+    },
+    {
+      "name": "copy",
+      "category": "ui",
+      "tags": [
+        "duplicate",
+        "clone"
+      ],
+      "cells": 47,
+      "accent": 6
+    },
+    {
+      "name": "download",
+      "category": "ui",
+      "tags": [
+        "save",
+        "get",
+        "import"
+      ],
+      "cells": 38,
+      "accent": 10
+    },
+    {
+      "name": "drag",
+      "category": "ui",
+      "tags": [
+        "grip",
+        "handle",
+        "move",
+        "reorder"
+      ],
+      "cells": 24,
+      "accent": 8
+    },
+    {
+      "name": "edit",
+      "category": "ui",
+      "tags": [
+        "pencil",
+        "write",
+        "rename"
+      ],
+      "cells": 20,
+      "accent": 4
+    },
+    {
+      "name": "error",
+      "category": "ui",
+      "tags": [
+        "x-circle",
+        "failure",
+        "fail"
+      ],
+      "cells": 42,
+      "accent": 12
+    },
+    {
+      "name": "external-link",
+      "category": "ui",
+      "tags": [
+        "open",
+        "new tab",
+        "launch"
+      ],
+      "cells": 35,
+      "accent": 10
+    },
+    {
+      "name": "eye-off",
+      "category": "ui",
+      "tags": [
+        "hide",
+        "hidden",
+        "invisible"
+      ],
+      "cells": 32,
+      "accent": 10
+    },
+    {
+      "name": "eye",
+      "category": "ui",
+      "tags": [
+        "view",
+        "show",
+        "visible"
+      ],
+      "cells": 28,
+      "accent": 4
+    },
+    {
+      "name": "filter",
+      "category": "ui",
+      "tags": [
+        "funnel",
+        "refine"
+      ],
+      "cells": 32,
+      "accent": 6
+    },
+    {
+      "name": "flag",
+      "category": "ui",
+      "tags": [
+        "report",
+        "mark",
+        "milestone"
+      ],
+      "cells": 37,
+      "accent": 12
+    },
+    {
+      "name": "grid",
+      "category": "ui",
+      "tags": [
+        "tiles",
+        "apps",
+        "layout"
+      ],
+      "cells": 48,
+      "accent": 12
+    },
+    {
+      "name": "heart",
+      "category": "ui",
+      "tags": [
+        "like",
+        "love",
+        "health"
+      ],
+      "cells": 24,
+      "accent": 2
+    },
+    {
+      "name": "help",
+      "category": "ui",
+      "tags": [
+        "question",
+        "support",
+        "faq"
+      ],
+      "cells": 42,
+      "accent": 2
+    },
+    {
+      "name": "home",
+      "category": "ui",
+      "tags": [
+        "house",
+        "start",
+        "dashboard"
+      ],
+      "cells": 38,
+      "accent": 4
+    },
+    {
+      "name": "image",
+      "category": "ui",
+      "tags": [
+        "picture",
+        "photo",
+        "media"
+      ],
+      "cells": 48,
+      "accent": 4
+    },
+    {
+      "name": "inbox",
+      "category": "ui",
+      "tags": [
+        "tray",
+        "messages",
+        "incoming"
+      ],
+      "cells": 54,
+      "accent": 10
+    },
+    {
+      "name": "info",
+      "category": "ui",
+      "tags": [
+        "about",
+        "information",
+        "details"
+      ],
+      "cells": 38,
+      "accent": 2
+    },
+    {
+      "name": "link",
+      "category": "ui",
+      "tags": [
+        "chain",
+        "url",
+        "connect"
+      ],
+      "cells": 28,
+      "accent": 8
+    },
+    {
+      "name": "list",
+      "category": "ui",
+      "tags": [
+        "rows",
+        "items",
+        "bullets"
+      ],
+      "cells": 27,
+      "accent": 6
+    },
+    {
+      "name": "lock",
+      "category": "ui",
+      "tags": [
+        "secure",
+        "locked",
+        "private"
+      ],
+      "cells": 40,
+      "accent": 6
+    },
+    {
+      "name": "login",
+      "category": "ui",
+      "tags": [
+        "sign in",
+        "enter"
+      ],
+      "cells": 31,
+      "accent": 11
+    },
+    {
+      "name": "logout",
+      "category": "ui",
+      "tags": [
+        "sign out",
+        "exit",
+        "leave"
+      ],
+      "cells": 31,
+      "accent": 11
+    },
+    {
+      "name": "mail",
+      "category": "ui",
+      "tags": [
+        "email",
+        "envelope",
+        "message"
+      ],
+      "cells": 40,
+      "accent": 2
+    },
+    {
+      "name": "maximize",
+      "category": "ui",
+      "tags": [
+        "fullscreen",
+        "expand",
+        "enlarge"
+      ],
+      "cells": 24,
+      "accent": 4
+    },
+    {
+      "name": "menu",
+      "category": "ui",
+      "tags": [
+        "hamburger",
+        "navigation"
+      ],
+      "cells": 44,
+      "accent": 12
+    },
+    {
+      "name": "minimize",
+      "category": "ui",
+      "tags": [
+        "exit fullscreen",
+        "shrink",
+        "collapse"
+      ],
+      "cells": 24,
+      "accent": 4
+    },
+    {
+      "name": "minus",
+      "category": "ui",
+      "tags": [
+        "remove",
+        "subtract",
+        "collapse"
+      ],
+      "cells": 16,
+      "accent": 4
+    },
+    {
+      "name": "moon",
+      "category": "ui",
+      "tags": [
+        "dark mode",
+        "night",
+        "theme"
+      ],
+      "cells": 29,
+      "accent": 2
+    },
+    {
+      "name": "more-horizontal",
+      "category": "ui",
+      "tags": [
+        "dots",
+        "ellipsis",
+        "overflow"
+      ],
+      "cells": 12,
+      "accent": 4
+    },
+    {
+      "name": "more-vertical",
+      "category": "ui",
+      "tags": [
+        "dots",
+        "kebab",
+        "overflow"
+      ],
+      "cells": 12,
+      "accent": 4
+    },
+    {
+      "name": "pin",
+      "category": "ui",
+      "tags": [
+        "location",
+        "place",
+        "marker"
+      ],
+      "cells": 26,
+      "accent": 6
+    },
+    {
+      "name": "plus",
+      "category": "ui",
+      "tags": [
+        "add",
+        "new",
+        "create"
+      ],
+      "cells": 28,
+      "accent": 4
+    },
+    {
+      "name": "radio",
+      "category": "ui",
+      "tags": [
+        "option",
+        "choice",
+        "selected"
+      ],
+      "cells": 40,
+      "accent": 12
+    },
+    {
+      "name": "redo",
+      "category": "ui",
+      "tags": [
+        "forward",
+        "repeat"
+      ],
+      "cells": 24,
+      "accent": 9
+    },
+    {
+      "name": "refresh",
+      "category": "ui",
+      "tags": [
+        "reload",
+        "sync",
+        "update"
+      ],
+      "cells": 22,
+      "accent": 3
+    },
+    {
+      "name": "save",
+      "category": "ui",
+      "tags": [
+        "floppy",
+        "disk",
+        "store"
+      ],
+      "cells": 58,
+      "accent": 4
+    },
+    {
+      "name": "search",
+      "category": "ui",
+      "tags": [
+        "find",
+        "magnifier",
+        "lookup"
+      ],
+      "cells": 27,
+      "accent": 2
+    },
+    {
+      "name": "send",
+      "category": "ui",
+      "tags": [
+        "paper plane",
+        "submit",
+        "dispatch"
+      ],
+      "cells": 40,
+      "accent": 12
+    },
+    {
+      "name": "settings",
+      "category": "ui",
+      "tags": [
+        "gear",
+        "preferences",
+        "config"
+      ],
+      "cells": 44,
+      "accent": 4
+    },
+    {
+      "name": "share",
+      "category": "ui",
+      "tags": [
+        "network",
+        "distribute",
+        "social"
+      ],
+      "cells": 24,
+      "accent": 12
+    },
+    {
+      "name": "sidebar",
+      "category": "ui",
+      "tags": [
+        "layout",
+        "panel",
+        "navigation"
+      ],
+      "cells": 50,
+      "accent": 6
+    },
+    {
+      "name": "sliders",
+      "category": "ui",
+      "tags": [
+        "adjust",
+        "controls",
+        "tune"
+      ],
+      "cells": 42,
+      "accent": 11
+    },
+    {
+      "name": "sort",
+      "category": "ui",
+      "tags": [
+        "order",
+        "arrange",
+        "up down"
+      ],
+      "cells": 24,
+      "accent": 12
+    },
+    {
+      "name": "star",
+      "category": "ui",
+      "tags": [
+        "favorite",
+        "rate",
+        "featured"
+      ],
+      "cells": 34,
+      "accent": 4
+    },
+    {
+      "name": "success",
+      "category": "ui",
+      "tags": [
+        "check-circle",
+        "ok",
+        "passed"
+      ],
+      "cells": 40,
+      "accent": 12
+    },
+    {
+      "name": "sun",
+      "category": "ui",
+      "tags": [
+        "light mode",
+        "day",
+        "theme"
+      ],
+      "cells": 36,
+      "accent": 4
+    },
+    {
+      "name": "tag",
+      "category": "ui",
+      "tags": [
+        "label",
+        "price",
+        "category"
+      ],
+      "cells": 32,
+      "accent": 4
+    },
+    {
+      "name": "toggle-off",
+      "category": "ui",
+      "tags": [
+        "switch",
+        "disabled",
+        "off"
+      ],
+      "cells": 36,
+      "accent": 10
+    },
+    {
+      "name": "toggle-on",
+      "category": "ui",
+      "tags": [
+        "switch",
+        "enabled",
+        "on"
+      ],
+      "cells": 36,
+      "accent": 10
+    },
+    {
+      "name": "trash",
+      "category": "ui",
+      "tags": [
+        "delete",
+        "remove",
+        "bin"
+      ],
+      "cells": 44,
+      "accent": 10
+    },
+    {
+      "name": "undo",
+      "category": "ui",
+      "tags": [
+        "back",
+        "revert"
+      ],
+      "cells": 24,
+      "accent": 9
+    },
+    {
+      "name": "unlock",
+      "category": "ui",
+      "tags": [
+        "open",
+        "unlocked",
+        "public"
+      ],
+      "cells": 39,
+      "accent": 6
+    },
+    {
+      "name": "upload",
+      "category": "ui",
+      "tags": [
+        "send",
+        "put",
+        "export"
+      ],
+      "cells": 38,
+      "accent": 10
+    },
+    {
+      "name": "user",
+      "category": "ui",
+      "tags": [
+        "person",
+        "account",
+        "profile"
+      ],
+      "cells": 34,
+      "accent": 12
+    },
+    {
+      "name": "users",
+      "category": "ui",
+      "tags": [
+        "people",
+        "group",
+        "team"
+      ],
+      "cells": 40,
+      "accent": 8
+    },
+    {
+      "name": "zoom-in",
+      "category": "ui",
+      "tags": [
+        "magnify",
+        "enlarge"
+      ],
+      "cells": 37,
+      "accent": 12
+    },
+    {
+      "name": "zoom-out",
+      "category": "ui",
+      "tags": [
+        "shrink",
+        "reduce"
+      ],
+      "cells": 33,
+      "accent": 8
+    }
+  ]
+}
